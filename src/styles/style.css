@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+.music-container {
+    background: linear-gradient(to top, rgba(0, 0, 0, 9), rgba(10, 10, 50, .9));
+    color: #ffffff;
+    width: 100%;
+    max-width: 450px;
+    min-height: 100vh;
+    max-height: 650px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 15px;
+}
+
+.music-container__top {
+    text-align: center;
+    font-size: 9px;
+    color: #bdbdbd;
+}
+
+.music-container__music {
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.music-container__music img {
+    border-radius: 3px;
+    width: 100%;
+}
+
+.music-container__controllers-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.music-container__controllers-data div h2 {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.music-container__controllers-data div p {
+    margin: 5px 0;
+}
+
+.controllers-data-favorite {
+    cursor: pointer;
+}
+
+
+.controllers-data-favorite-clicked {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+.music-container__controllers-time {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+.music-container__controllers-time div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 0;
+    padding: 0 5px;
+    font-size: .9em;
+}
+
+.music-container__controllers-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.music-container__controllers-btns .material-symbols-outlined {
+    cursor: pointer;
+}
+
+
+.music-container__controllers-btns .controllers-btns__pause {
+    display: none;
+}

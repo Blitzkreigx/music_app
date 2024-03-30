@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist de Música Selectiva</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="music-container">
+        <section>
+            <div class="music-container__top">
+                <h1>PLAYSLIST 'OLD MONEY'</h1>
+            </div>
+            <div class="music-container__music">
+                <img src="/" alt="" id="image">
+            </div>
+        </section>
+        <section class="music-container__controllers">
+            <div class="music-container__controllers-data">
+                <div>
+                    <h2 id="title"></h2>
+                    <p id="author"></p>
+                </div>
+                <span class="material-symbols-outlined controllers-data-favorite " id="favorite">
+                    favorite
+                </span>
+            </div>
+            <div class="music-container__controllers-time">
+                <input type="range" id="range" min="" max="" value="" readonly>
+                <div>
+                    <p id="actuallyRange">00:00</p>
+                    <p id="completeRange">00:00</p>
+                </div>
+            </div>
+            <div class="music-container__controllers-btns">
+                <span class="material-symbols-outlined controllers-btns__previous" id="previous">
+                    skip_previous
+                </span>
+                <span class="material-symbols-outlined controllers-btns__play" id="play">
+                    play_arrow
+                </span>
+                <span class="material-symbols-outlined controllers-btns__pause" id="stop">
+                    stop_circle
+                </span>
+                <span class="material-symbols-outlined controllers-btns__next" id="next">
+                    skip_next
+                </span>
+            </div>
+        </section>
+    </div>
+
+    <script src="./src/scripts/script.js"></script>
+</body>
+</html>
