@@ -9,6 +9,12 @@ const buttonAddToFavorite = document.getElementById('favorite');
 
 const musicList = [
     {
+        'name': 'Катя Лель',
+        'author': 'Мой мармеладный',
+        'image': './src/images/Катя-Лель.jpg',
+        'audio': new Audio('./src/audios/Катя-Лель.mp3')
+    },
+    {
         'name': 'Hit The Road Jack',
         'author': 'Ray Charles',
         'image': './src/images/hit-the-road-jack.jpeg',
@@ -37,6 +43,12 @@ const musicList = [
         'author': 'Nina Simone',
         'image': './src/images/i-put-a-spell-on-you.jpeg',
         'audio': new Audio('./src/audios/i-put-a-spell-on-you.mp3')
+    },
+    {
+        'name': 'Feeling Good',
+        'author': 'Michael Bublé',
+        'image': './src/images/feeling-good.jpeg',
+        'audio': new Audio('./src/audios/feeling-good.mp3')
     },
 ];
 

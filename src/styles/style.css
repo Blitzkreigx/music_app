@@ -2,10 +2,11 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT';
+    background: linear-gradient(to top, rgba(0, 0, 0, .9), rgba(10, 10, 50, .8));
 }
 
 .music-container {
-    background: linear-gradient(to top, rgba(0, 0, 0, 9), rgba(10, 10, 50, .9));
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(10, 10, 50, .9));
     color: #ffffff;
     width: 100%;
     max-width: 450px;
